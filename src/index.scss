@@ -1,0 +1,50 @@
+html {
+  font-size: 62.5%;  // 1rem = 10px
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+  // @media only screen and (min-width: 100em) {
+  //   font-size: 75%;    // 1rem = 12px
+  // }
+
+  // @media only screen and (min-width: 125em) {
+  //   font-size: 87.5%;    // 1rem = 12px
+  // }
+  
+  // @media only screen and (min-width: 156.25em) {
+  //   font-size: 100%;    // 1rem = 12px
+  // }
+  
+  // @media only screen and (max-width: 68.75em) {
+  //   font-size: 50%;    // 1rem = 8px
+  // }
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  scrollbar-width: none;
+}
+
+body {
+  font-family: 'KoHo', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  // color: var(--color-white);
+  // background-color: var(--color-primary);
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+p {
+  font-family: 'KoHo', sans-serif;
+  font-weight: 400;
+}
